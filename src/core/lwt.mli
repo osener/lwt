@@ -1761,7 +1761,6 @@ Lwt.fail (Pervasives.Invalid_argument s)
 
 val (>>=) : 'a t -> ('a -> 'b t) -> 'b t
 val (>|=) : 'a t -> ('a -> 'b) -> 'b t
-val (<?>) : 'a t -> 'a t -> 'a t
 val (<&>) : unit t -> unit t -> unit t
 val (=<<) : ('a -> 'b t) -> 'a t -> 'b t
 val (=|<) : ('a -> 'b) -> 'a t -> 'b t
